@@ -99,7 +99,7 @@ body {
 }
 
 .baropass_top {
-    min-width: 320px;
+    width: 100%;
     position: relative;
 }
 
@@ -115,6 +115,135 @@ body {
 }
 
 .wrapper {
-    width: 1200px;
+    width: 100%;
     margin: 0 auto;
+}
+
+.pass_info {
+    border-bottom: 1px solid #F2F2F3;
+    padding: 40px 16px;
+}
+
+.info_area {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+.info_area_top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+
+.info_area_top img {
+    width: 40px;
+}
+
+.info_area_bottom {
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.pass_price {
+    background-color: #F8F8F9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.pass_price img {
+    max-width: 480px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0px 16px;
+}
+
+.pass_text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 8px;
+}
+
+.pass_benefit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+
+.pass_benefit img {
+    max-width: 480px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0px 16px;
+}
+
+.pass_detail {
+    background-color: #161D26;
+    padding: 80px 16px;
+}
+
+.detail_area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    gap: 16px;
+}
+
+.detail_area img {
+    width: 120px;
+}
+
+.detail_area_main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.detail_area_sub {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    color: #3B3D43;
+}
+
+.detail_area_sub img {
+    width: 32px;
+}
+
+.detail_benefit {
+    color: #4C73FF;
+    border: 1px solid #4C73FF;
+    padding: 4px 24px;
+    border-radius: 40px;
+}
+
+.pass_detail2 {
+    background-color: black;
+    padding: 80px 16px;
+}
+
+.pass_comparison {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px 120px 0px;
+}
+
+.pass_comparison img {
+    max-width: 480px;
+    width: 100%;
+    margin-top: 24px;
+    padding: 0px 16px;
 }
